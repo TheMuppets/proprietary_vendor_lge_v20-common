@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/v20-common/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/v20-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/v20-common/proprietary/vendor/firmware/BCM43xx.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM43xx.hcd \
     vendor/lge/v20-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24333gwl.so \
