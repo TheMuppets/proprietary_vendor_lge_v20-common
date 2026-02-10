@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24333gwl.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl_s5k2p7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24333gwl_s5k2p7.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
@@ -172,7 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_zsl_preview_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p7_zsl_preview_wide.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p7_zsl_video.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libjpeg_turbo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg_turbo.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
@@ -462,7 +460,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_brcb032gwz_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_brcb032gwz_eeprom.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_brcb032gwz_s5k2p7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_brcb032gwz_s5k2p7_eeprom.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
@@ -531,13 +528,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_s5k2p7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2p7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
