@@ -6,14 +6,11 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/v20-common
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/v20-common/proprietary/vendor/bin/fpc_early_loader:$(TARGET_COPY_OUT_VENDOR)/bin/fpc_early_loader \
     vendor/lge/v20-common/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/lge/v20-common/proprietary/vendor/etc/camera/hi553_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hi553_chromatix.xml \
     vendor/lge/v20-common/proprietary/vendor/etc/camera/imx219_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx219_chromatix.xml \
     vendor/lge/v20-common/proprietary/vendor/etc/camera/imx298_chromatix_LG.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix_LG.xml \
     vendor/lge/v20-common/proprietary/vendor/etc/camera/s5k2p7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2p7_chromatix.xml \
-    vendor/lge/v20-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
-    vendor/lge/v20-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/v20-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/v20-common/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/lge/v20-common/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -58,7 +55,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_beauty_shot \
     libarcsoft_object_tracking \
     libbwfocuspeaking \
-    libchromaflash \
     libchromatix_csidtg_common \
     libchromatix_csidtg_cpp_preview \
     libchromatix_csidtg_postproc \
@@ -174,7 +170,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k2p7_zsl_video \
     libfilm_emulation \
     libflash_pmic \
-    libhdr_tm \
     libjpeg_turbo \
     libjpegdhw \
     libjpegdmahw \
@@ -461,7 +456,6 @@ PRODUCT_PACKAGES += \
     libmmcamera2_stats_modules \
     libmmcamera_brcb032gwz_eeprom \
     libmmcamera_brcb032gwz_s5k2p7_eeprom \
-    libmmcamera_chromaflash_lib \
     libmmcamera_dummyalgo \
     libmmcamera_eebinparse \
     libmmcamera_eeprom_util \
@@ -529,11 +523,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdafcamif \
     libmmcamera_ppbase_module \
     libmmcamera_ppeiscore \
-    libmmcamera_quadracfa \
     libmmcamera_s5k2p7 \
     libmmcamera_sw2d_lib \
     libmmcamera_thread_services \
-    libmmcamera_trueportrait_lib \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
@@ -550,4 +542,7 @@ PRODUCT_PACKAGES += \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    fingerprint.msm8996
+    fingerprint.msm8996 \
+    fpc_early_loader \
+    mm-qcamera-app \
+    mm-qcamera-daemon
