@@ -232,7 +232,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/camera.msm8996.so"],
-			shared_libs: ["liblog", "libhardware", "libutils", "libcutils", "libsync", "libmmcamera_interface", "libmmjpeg_interface", "libui", "libcamera_metadata", "libqdMetaData", "libqservice", "libbinder", "android.hidl.base@1.0", "libhidlbase", "liblghdri", "libmorpho_image_stab31", "libmorpho_superzoom", "libarcsoft_beauty_shot", "libarcsoft_object_tracking", "libmpbase", "libandroid", "libgui", "libEGL", "libGLESv2", "libfilm_emulation", "libbwfocuspeaking", "android.hardware.power@1.2", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libshim_camera", "liblog", "libhardware", "libutils", "libcutils", "libsync", "libmmcamera_interface", "libmmjpeg_interface", "libui", "libcamera_metadata", "libqdMetaData", "libqservice", "libbinder", "android.hidl.base@1.0", "libhidlbase", "liblghdri", "libmorpho_image_stab31", "libmorpho_superzoom", "libarcsoft_beauty_shot", "libarcsoft_object_tracking", "libmpbase", "libandroid", "libgui", "libEGL", "libGLESv2", "libfilm_emulation", "libbwfocuspeaking", "android.hardware.power@1.2", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
@@ -335,7 +335,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libbwfocuspeaking.so"],
-			shared_libs: ["libc++", "libdl", "libc", "libm", "liblog", ],
+			shared_libs: ["libshim_bwfocus", "libc++", "libdl", "libc", "libm", "liblog", ],
 		},
 	},
 	compile_multilib: "32",
@@ -8294,7 +8294,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_ppeiscore.so"],
-			shared_libs: ["libcutils", "liblog", "libEGL", "libGLESv2", "libhardware", "libqdMetaData", "libutils", "libui", "libmmcamera_dbg", "libmmcamera_imglib", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libshim_camera", "libcutils", "liblog", "libEGL", "libGLESv2", "libhardware", "libqdMetaData", "libutils", "libui", "libmmcamera_dbg", "libmmcamera_imglib", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
